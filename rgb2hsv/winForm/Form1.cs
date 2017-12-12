@@ -19,13 +19,14 @@ namespace winForm
 
         private void btnTran_Click(object sender, EventArgs e)
         {
-            int r = int.Parse(tbR.Text);
-            int g = int.Parse(tbG.Text);
-            int b = int.Parse(tbB.Text);
-            int min = Math.Min(r, Math.Min(g, b));
-            int max = Math.Max(r, Math.Max(g, b));
+            int intR = int.Parse(tbR.Text);
+            int intG = int.Parse(tbG.Text);
+            int intB = int.Parse(tbB.Text);
+            float r = (float)(intR / 255.0), g = (float)(intG / 255.0), b =(float)( intB / 255.0);
+            float min = Math.Min(r, Math.Min(g, b));
+            float max = Math.Max(r, Math.Max(g, b));
 
-            int h=0, s, v;
+            float h = 0f, s, v;
             if (max == min)
                 h = 0;
             else if (max == r && g >= b)
@@ -47,6 +48,10 @@ namespace winForm
             lbH.Text = h.ToString();
             lbS.Text = s.ToString();
             lbV.Text = v.ToString();
+
+            lbH1.Text = (h / 2).ToString ();
+            lbS1.Text = (s * 255).ToString();
+            lbV1.Text = (v * 255).ToString();
         }
     }
 }

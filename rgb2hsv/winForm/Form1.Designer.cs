@@ -41,6 +41,9 @@
             this.lbS = new System.Windows.Forms.Label();
             this.lbV = new System.Windows.Forms.Label();
             this.btnTran = new System.Windows.Forms.Button();
+            this.lbH1 = new System.Windows.Forms.Label();
+            this.lbS1 = new System.Windows.Forms.Label();
+            this.lbV1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbR
@@ -155,15 +158,42 @@
             this.btnTran.UseVisualStyleBackColor = true;
             this.btnTran.Click += new System.EventHandler(this.btnTran_Click);
             // 
+            // lbH1
+            // 
+            this.lbH1.AutoSize = true;
+            this.lbH1.Location = new System.Drawing.Point(377, 26);
+            this.lbH1.Name = "lbH1";
+            this.lbH1.Size = new System.Drawing.Size(0, 15);
+            this.lbH1.TabIndex = 1;
+            // 
+            // lbS1
+            // 
+            this.lbS1.AutoSize = true;
+            this.lbS1.Location = new System.Drawing.Point(377, 57);
+            this.lbS1.Name = "lbS1";
+            this.lbS1.Size = new System.Drawing.Size(0, 15);
+            this.lbS1.TabIndex = 1;
+            // 
+            // lbV1
+            // 
+            this.lbV1.AutoSize = true;
+            this.lbV1.Location = new System.Drawing.Point(377, 88);
+            this.lbV1.Name = "lbV1";
+            this.lbV1.Size = new System.Drawing.Size(0, 15);
+            this.lbV1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(403, 174);
+            this.ClientSize = new System.Drawing.Size(456, 174);
             this.Controls.Add(this.btnTran);
+            this.Controls.Add(this.lbV1);
+            this.Controls.Add(this.lbS1);
             this.Controls.Add(this.lbV);
             this.Controls.Add(this.lbS);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.lbH1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbH);
             this.Controls.Add(this.label3);
@@ -195,6 +225,9 @@
         private System.Windows.Forms.Label lbS;
         private System.Windows.Forms.Label lbV;
         private System.Windows.Forms.Button btnTran;
+        private System.Windows.Forms.Label lbH1;
+        private System.Windows.Forms.Label lbS1;
+        private System.Windows.Forms.Label lbV1;
     }
 }
 
