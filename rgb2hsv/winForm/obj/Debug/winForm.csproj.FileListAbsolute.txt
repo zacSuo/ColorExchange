@@ -1,0 +1,9 @@
+D:\temp\rgb2hsv\winForm\bin\Debug\winForm.exe.config
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.csprojResolveAssemblyReference.cache
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.Form1.resources
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.Properties.Resources.resources
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.csproj.GenerateResource.Cache
+D:\temp\rgb2hsv\winForm\bin\Debug\winForm.exe
+D:\temp\rgb2hsv\winForm\bin\Debug\winForm.pdb
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.exe
+D:\temp\rgb2hsv\winForm\obj\Debug\winForm.pdb

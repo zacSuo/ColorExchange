@@ -1,0 +1,6 @@
+D:\temp\rgb2hsv\rgb2hsv\bin\Debug\rgb2hsv.exe.config
+D:\temp\rgb2hsv\rgb2hsv\bin\Debug\rgb2hsv.exe
+D:\temp\rgb2hsv\rgb2hsv\bin\Debug\rgb2hsv.pdb
+D:\temp\rgb2hsv\rgb2hsv\obj\Debug\rgb2hsv.csprojResolveAssemblyReference.cache
+D:\temp\rgb2hsv\rgb2hsv\obj\Debug\rgb2hsv.exe
+D:\temp\rgb2hsv\rgb2hsv\obj\Debug\rgb2hsv.pdb
